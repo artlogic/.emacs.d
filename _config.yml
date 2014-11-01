@@ -16,3 +16,4 @@ gems:
   - jekyll-sitemap
 
 timezone: America/Detroit
+github_link: "https://github.com/artlogic/.emacs.d"
