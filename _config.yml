@@ -12,6 +12,9 @@ github_username:  artlogic
 # Build settings
 markdown: kramdown
 
+kramdown:
+  input: GFM
+
 gems:
   - jekyll-sitemap
 
