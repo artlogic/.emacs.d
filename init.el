@@ -14,3 +14,7 @@
 ;; This file is the entry point for my customized configuration.
 
 ;;; Code:
+
+;; save customizations in custom.el
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file 'missing-ok)
