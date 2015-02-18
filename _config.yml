@@ -10,7 +10,11 @@ twitter_username: artlogic
 github_username:  artlogic
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+
+redcarpet:
+  extensions: [smart, no_intra_emphasis, tables, autolink,
+               strikethrough, underline, highlight, quote, footnotes]
 
 kramdown:
   input: GFM
