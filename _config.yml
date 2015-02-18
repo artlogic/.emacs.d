@@ -18,5 +18,6 @@ kramdown:
 gems:
   - jekyll-sitemap
 
+permalink: "/entry/:year/:month/:day/:title/"
 timezone: America/Detroit
 github_link: "https://github.com/artlogic/.emacs.d"
