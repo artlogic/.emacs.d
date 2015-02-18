@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Customizing Customize"
-date:   2015-12-17 23:45:00
+date:   2015-02-17 23:45:00
 categories: customize
 ---
 Perhaps one of the most incredible aspects of Emacs is its capability of self documentation. You can literally discover and learn about any aspect of Emacs inside of Emacs itself. While [not perfect](http://emacswiki.org/emacs/CustomizingAndSaving#toc3), I believe `M-x customize` embodies that same spirit of discoverability when dealing with simple configuration changes.
