@@ -8,10 +8,10 @@ Perhaps one of the most incredible aspects of Emacs is its capability of self do
 
 Unfortunately, `customize` changes your init.el by default, turning your main configuration file into a disorganized mess rather quickly. Luckily, as with most things in Emacs, this behavior is configurable:
 
-```elisp
+{% highlight elisp %}
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file 'missing-ok)
-```
+{% endhighlight %}
 
 This bit of code first tells `customize` to store any customizations in `~/.emacs.d/custom.el` and then loads the file. The `'missing-ok` symbol is simply a descriptive non-nil value. It directs `load` to not complain if `custom-file` doesn't exist.
 
