@@ -15,4 +15,6 @@ Unfortunately, `customize` changes your init.el by default, turning your main co
 
 This bit of code first tells `customize` to store any customizations in `~/.emacs.d/custom.el` and then loads the file. The `'missing-ok` symbol is simply a descriptive non-nil value. It directs `load` to not complain if `custom-file` doesn't exist.
 
-*Commit: https://github.com/artlogic/.emacs.d/commit/d87c91c65f26d782353dfab193c8590b19179f35*
+***
+
+*https://github.com/artlogic/.emacs.d/commit/d87c91c65f26d782353dfab193c8590b19179f35*
