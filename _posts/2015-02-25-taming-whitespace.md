@@ -28,4 +28,4 @@ The `whitespace-action` variable can be customized to perform a number of differ
 
 * * *
 
-*Commit: https://github.com/artlogic/.emacs.d/commit/50a9e5e59b38c77e002168ab895c5777292d7a7d*
+*https://github.com/artlogic/.emacs.d/commit/50a9e5e59b38c77e002168ab895c5777292d7a7d*
