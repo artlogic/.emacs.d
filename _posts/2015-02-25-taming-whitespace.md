@@ -28,4 +28,12 @@ The `whitespace-action` variable can be customized to perform a number of differ
 
 * * *
 
+## Addendum
+
+*2015-03-21*
+
+It turns out that the `whitespace-action` variable only functions when local (not global) `whitespace-mode` is active. A possible solution here would be to add a hook that runs `whitespace-report` when certain files are loaded regardless of mode. Another option might be to trick `whitespace-action` with a carefully crafted `defadvice`.
+
+* * *
+
 *https://github.com/artlogic/.emacs.d/commit/50a9e5e59b38c77e002168ab895c5777292d7a7d*
