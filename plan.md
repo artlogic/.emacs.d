@@ -21,3 +21,9 @@ Then to load emacs now:
   * [https://github.com/kovan/dopemacs/blob/master/init.el](https://github.com/kovan/dopemacs/blob/master/init.el)
   * [https://github.com/purcell/emacs.d/blob/master/lisp/init-elpa.el](https://github.com/purcell/emacs.d/blob/master/lisp/init-elpa.el)
   * [https://www.reddit.com/r/emacs/comments/2nx91o/packages_and_git/](https://www.reddit.com/r/emacs/comments/2nx91o/packages_and_git/)
+* Adding markdown mode, and using yasnippet for YAML front-matter
+* Figuring out if VC mode can handle all my git needs or if magit is needed.
+* Turn off Use Dialog Box and Use File Dialog: http://emacshorrors.com/post/yes-or-no
+* Flycheck (and various linters): https://github.com/flycheck/flycheck
+* Look strongly at web-mode: http://web-mode.org/
+* Think about evil or spacemacs
