@@ -30,7 +30,7 @@ The `whitespace-action` variable can be customized to perform a number of differ
 
 ## Addendum
 
-*2015-03-21*
+<p class="post-meta">2015-03-21</p>
 
 It turns out that the `whitespace-action` variable only functions when local (not global) `whitespace-mode` is active. A possible solution here would be to add a hook that runs `whitespace-report` when certain files are loaded regardless of mode. Another option might be to trick `whitespace-action` with a carefully crafted `defadvice`.
 
