@@ -2,7 +2,7 @@
 layout: post
 title:  "The Final Newline"
 date:   2015-04-17 20:40:00
-categories: backups
+categories: whitespace
 ---
 
 To be written.
