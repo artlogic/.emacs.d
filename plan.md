@@ -7,7 +7,7 @@ permalink: /plan/
 This represents a rough outline of what I'm working on currently:
 
 * ~~Move customized settings to their own file~~
-* Auto save and backup file location (via customize)
+* Auto save and ~~backup file~~ location (via customize)
 * Using emacs in server mode on Mac OS. Homebrew now installs a plist file:
 
 ```
