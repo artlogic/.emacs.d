@@ -6,6 +6,8 @@
  '(backup-directory-alist (quote (("." . "~/.emacs.d/backups/"))))
  '(column-number-mode t)
  '(global-whitespace-mode t)
+ '(indent-tabs-mode nil)
+ '(js-indent-level 2)
  '(require-final-newline t)
  '(whitespace-action (quote (report-on-bogus)))
  '(whitespace-style (quote (face tabs trailing indentation empty tab-mark))))
