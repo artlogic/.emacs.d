@@ -27,3 +27,4 @@ Then to load emacs now:
 * Flycheck (and various linters): https://github.com/flycheck/flycheck
 * Look strongly at web-mode: http://web-mode.org/
 * Think about evil or spacemacs
+* Add jshint with flymake or use js2-mode
