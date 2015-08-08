@@ -31,4 +31,7 @@
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file 'missing-ok)
 
+;; prepend /usr/local/bin to the exec-path - customize can't prepend
+(setq exec-path (cons "/usr/local/bin" exec-path))
+
 ;;; init.el ends here
