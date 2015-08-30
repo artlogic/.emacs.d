@@ -5,6 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(backup-directory-alist (quote (("." . "~/.emacs.d/backups/"))))
  '(column-number-mode t)
+ '(custom-enabled-themes (quote (wombat)))
  '(global-whitespace-mode t)
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
