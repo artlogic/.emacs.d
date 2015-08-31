@@ -10,6 +10,8 @@
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
  '(require-final-newline t)
+ '(scroll-bar-mode nil)
+ '(tool-bar-mode nil)
  '(whitespace-action (quote (report-on-bogus)))
  '(whitespace-style (quote (face tabs trailing indentation empty tab-mark))))
 (custom-set-faces
