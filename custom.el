@@ -7,6 +7,8 @@
  '(column-number-mode t)
  '(custom-enabled-themes (quote (wombat)))
  '(global-whitespace-mode t)
+ '(ido-enable-flex-matching t)
+ '(ido-mode (quote both) nil (ido))
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
  '(require-final-newline t)
