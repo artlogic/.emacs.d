@@ -28,3 +28,4 @@ Then to load emacs now:
 * Look strongly at web-mode: http://web-mode.org/
 * Think about evil or spacemacs
 * Add jshint with flymake or use js2-mode
+* Better defaults: https://github.com/technomancy/better-defaults
