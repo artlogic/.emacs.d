@@ -7,3 +7,7 @@
 # backups, auto saves, etc...
 /auto-save-list/
 /backups/
+
+# ido artifacts
+/ido.last
+/places
