@@ -8,6 +8,7 @@
  '(custom-enabled-themes (quote (wombat)))
  '(global-whitespace-mode t)
  '(ido-enable-flex-matching t)
+ '(ido-everywhere t)
  '(ido-mode (quote both) nil (ido))
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
