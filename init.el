@@ -31,7 +31,15 @@
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file 'missing-ok)
 
-;; prepend /usr/local/bin to the exec-path - customize can't prepend
+;; customize isn't great a customizing default lists - it would be
+;; great if it could append/prepend, but it can't so we do that work
+;; here
+
+;; prepend /usr/local/bin to the exec-path
 (setq exec-path (cons "/usr/local/bin" exec-path))
+
+;; ignore the node_modules directory (prepend is more efficient)
+(setq grep-find-ignored-directories
+      (cons "node_modules" grep-find-ignored-directories))
 
 ;;; init.el ends here
