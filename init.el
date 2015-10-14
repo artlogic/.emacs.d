@@ -36,7 +36,7 @@
 ;; here
 
 ;; prepend /usr/local/bin to the exec-path
-(setq exec-path (cons "/usr/local/bin" exec-path))
+(add-to-list exec-path "/usr/local/bin")
 
 ;; ignore the node_modules directory
 (with-eval-after-load 'grep
