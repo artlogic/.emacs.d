@@ -38,8 +38,8 @@
 ;; prepend /usr/local/bin to the exec-path
 (setq exec-path (cons "/usr/local/bin" exec-path))
 
-;; ignore the node_modules directory (prepend is more efficient)
-(setq grep-find-ignored-directories
-      (cons "node_modules" grep-find-ignored-directories))
+;; ignore the node_modules directory
+(with-eval-after-load 'grep
+  (add-to-list grep-find-ignored-directories "node_modules"))
 
 ;;; init.el ends here
