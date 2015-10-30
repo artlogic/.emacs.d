@@ -36,10 +36,10 @@
 ;; here
 
 ;; prepend /usr/local/bin to the exec-path
-(add-to-list exec-path "/usr/local/bin")
+(add-to-list 'exec-path "/usr/local/bin")
 
 ;; ignore the node_modules directory
 (with-eval-after-load 'grep
-  (add-to-list grep-find-ignored-directories "node_modules"))
+  (add-to-list 'grep-find-ignored-directories "node_modules"))
 
 ;;; init.el ends here
