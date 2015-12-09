@@ -21,11 +21,38 @@ Then to load emacs now:
   * [https://github.com/kovan/dopemacs/blob/master/init.el](https://github.com/kovan/dopemacs/blob/master/init.el)
   * [https://github.com/purcell/emacs.d/blob/master/lisp/init-elpa.el](https://github.com/purcell/emacs.d/blob/master/lisp/init-elpa.el)
   * [https://www.reddit.com/r/emacs/comments/2nx91o/packages_and_git/](https://www.reddit.com/r/emacs/comments/2nx91o/packages_and_git/)
+
+```
+;; init.el --- Emacs configuration
+
+;; INSTALL PACKAGES
+;; --------------------------------------
+
+(require 'package)
+
+(add-to-list 'package-archives
+       '("melpa" . "http://melpa.org/packages/") t)
+
+(package-initialize)
+(when (not package-archive-contents)
+  (package-refresh-contents))
+
+(defvar myPackages
+  '(better-defaults
+    material-theme))
+
+(mapc #'(lambda (package)
+    (unless (package-installed-p package)
+      (package-install package)))
+      myPackages)
+```
+
 * Adding markdown mode, and using yasnippet for YAML front-matter
 * Figuring out if VC mode can handle all my git needs or if magit is needed.
 * Turn off Use Dialog Box and Use File Dialog: http://emacshorrors.com/post/yes-or-no
 * Flycheck (and various linters): https://github.com/flycheck/flycheck
 * Look strongly at web-mode: http://web-mode.org/
-* Think about evil or spacemacs
 * Add jshint with flymake or use js2-mode
 * Better defaults: https://github.com/technomancy/better-defaults
+* http://www.tonyballantyne.com/EmacsWritingTips.html
+* superword/subword mode
