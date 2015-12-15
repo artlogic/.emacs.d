@@ -11,7 +11,7 @@ I think perhaps once in the past five years I've actually used one of these back
 
 The `backup-directory-alist` variable allows Emacs to choose which files to backup and where. Each entry is a cons cell. The left entry is a regular expression to choose files. The right entry is the location to put the files. The most common usage involves moving all backups to single folder, like so:
 
-```
+```elisp
 ("." . "~/.emacs.d/backups/")
 ```
 
