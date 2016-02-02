@@ -11,4 +11,4 @@ I plan to investigate fancier solutions in the future. I'd like to see an unobtr
 
 ***
 
-https://github.com/artlogic/.emacs.d/commit/cf5ae468ce7f4586e50f6c87e9210156316a6cfd
+<https://github.com/artlogic/.emacs.d/commit/cf5ae468ce7f4586e50f6c87e9210156316a6cfd>

@@ -34,4 +34,4 @@ It should be no surprise that Emacs has a setting to help me spread my endline a
 
 ***
 
-https://github.com/artlogic/.emacs.d/commit/2a0df521be77365dbd3e602da18286fb8f699fc7
+<https://github.com/artlogic/.emacs.d/commit/2a0df521be77365dbd3e602da18286fb8f699fc7>

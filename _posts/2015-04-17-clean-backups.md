@@ -19,4 +19,4 @@ One really cool aspect of this is that Emacs, sensing we're putting all the back
 
 ***
 
-https://github.com/artlogic/.emacs.d/commit/e6963e3f8c5b2dc2ad2983443e026823e3b6d4b5
+<https://github.com/artlogic/.emacs.d/commit/e6963e3f8c5b2dc2ad2983443e026823e3b6d4b5>

@@ -17,4 +17,4 @@ This bit of code first tells `customize` to store any customizations in `~/.emac
 
 ***
 
-*https://github.com/artlogic/.emacs.d/commit/d87c91c65f26d782353dfab193c8590b19179f35*
+<https://github.com/artlogic/.emacs.d/commit/d87c91c65f26d782353dfab193c8590b19179f35>
