@@ -17,6 +17,7 @@ kramdown:
 
 gems:
   - jekyll-sitemap
+  - jekyll-feed
 
 permalink: "/entry/:year/:month/:day/:title/"
 timezone: America/Detroit
