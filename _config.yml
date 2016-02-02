@@ -12,6 +12,8 @@ twitter_username: artlogic
 github_username:  artlogic
 
 # Build settings
+exclude: ['Gemfile', 'Gemfile.lock']
+
 kramdown:
   input: GFM
 
