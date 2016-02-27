@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ido Mode
+categories: completion
 ---
 
 Talk a little bit about Ido mode - reference this:
