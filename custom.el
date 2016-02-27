@@ -7,6 +7,7 @@
  '(column-number-mode t)
  '(custom-enabled-themes (quote (wombat)))
  '(global-whitespace-mode t)
+ '(ido-auto-merge-delay-time 7)
  '(ido-enable-flex-matching t)
  '(ido-everywhere t)
  '(ido-mode (quote both) nil (ido))
