@@ -14,6 +14,14 @@
  '(ido-mode (quote both) nil (ido))
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
+ '(org-default-notes-file "~/Dropbox/GTD/inbox.org")
+ '(org-refile-targets
+   (quote
+    (("~/Dropbox/GTD/action.org" :maxlevel . 9)
+     ("~/Dropbox/GTD/future.org" :maxlevel . 9)
+     ("~/Dropbox/GTD/project.org" :maxlevel . 9)
+     (nil :maxlevel . 9))))
+ '(org-todo-keywords (quote ((sequence "TODO(t)" "WAIT(w)" "DONE(d)"))))
  '(require-final-newline t)
  '(scroll-bar-mode nil)
  '(sentence-end-double-space nil)

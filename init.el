@@ -42,4 +42,11 @@
 (with-eval-after-load 'grep
   (add-to-list 'grep-find-ignored-directories "node_modules"))
 
+;; setup org mode global keys
+;; see http://orgmode.org/manual/Activation.html
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cc" 'org-capture)
+(global-set-key "\C-cb" 'org-iswitchb)
+
 ;;; init.el ends here
