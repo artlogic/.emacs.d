@@ -34,13 +34,17 @@
       (file+headline "" "Tasks")
       "* WAIT %i%?
   DEADLINE: %^{Deadline}t"))))
+ '(org-completion-use-ido t)
  '(org-default-notes-file "~/Dropbox/GTD/inbox.org")
+ '(org-outline-path-complete-in-steps nil)
+ '(org-refile-allow-creating-parent-nodes (quote confirm))
  '(org-refile-targets
    (quote
     (("~/Dropbox/GTD/action.org" :maxlevel . 9)
      ("~/Dropbox/GTD/future.org" :maxlevel . 9)
      ("~/Dropbox/GTD/project.org" :maxlevel . 9)
      (nil :maxlevel . 9))))
+ '(org-refile-use-outline-path (quote file))
  '(org-todo-keywords (quote ((sequence "TODO(t)" "WAIT(w)" "DONE(d)"))))
  '(require-final-newline t)
  '(scroll-bar-mode nil)
