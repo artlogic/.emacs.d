@@ -14,6 +14,26 @@
  '(ido-mode (quote both) nil (ido))
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
+ '(org-capture-templates
+   (quote
+    (("t" "Todo" entry
+      (file+headline "" "Tasks")
+      "* TODO %i%?")
+     ("w" "Waiting on" entry
+      (file+headline "" "Tasks")
+      "* WAIT %i%?")
+     ("n" "Note" entry
+      (file+headline "" "Notes")
+      "* %i%?")
+     ("d" "Deadline tasks")
+     ("dt" "Deadline todo" entry
+      (file+headline "" "Tasks")
+      "* TODO %i%?
+  DEADLINE: %^{Deadline}t")
+     ("dw" "Deadline waiting on" entry
+      (file+headline "" "Tasks")
+      "* WAIT %i%?
+  DEADLINE: %^{Deadline}t"))))
  '(org-default-notes-file "~/Dropbox/GTD/inbox.org")
  '(org-refile-targets
    (quote
