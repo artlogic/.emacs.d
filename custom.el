@@ -34,9 +34,7 @@
       (file+headline "" "Tasks")
       "* WAIT %i%?
   DEADLINE: %^{Deadline}t"))))
- '(org-completion-use-ido t)
  '(org-default-notes-file "~/Dropbox/GTD/inbox.org")
- '(org-outline-path-complete-in-steps nil)
  '(org-refile-allow-creating-parent-nodes (quote confirm))
  '(org-refile-targets
    (quote
