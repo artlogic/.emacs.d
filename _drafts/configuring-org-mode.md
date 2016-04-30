@@ -9,3 +9,4 @@ title: Configuring Org Mode
 <https://github.com/artlogic/.emacs.d/commit/e437dfadcf2305b1ecfaf700e8dd8c7104120716>
 <https://github.com/artlogic/.emacs.d/commit/5472b0a3def1afe4d9010ab1d7f7b24ec1881522>
 <https://github.com/artlogic/.emacs.d/commit/be8ad5d424683de95baf46ae19caabfc590e9740>
+<https://github.com/artlogic/.emacs.d/commit/b6d775f1fe68d64b33528dd24a017073699a079b>
