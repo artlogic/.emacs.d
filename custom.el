@@ -35,6 +35,7 @@
       "* WAIT %i%?
   DEADLINE: %^{Deadline}t"))))
  '(org-default-notes-file "~/Dropbox/GTD/inbox.org")
+ '(org-log-done (quote time))
  '(org-refile-allow-creating-parent-nodes (quote confirm))
  '(org-refile-targets
    (quote
