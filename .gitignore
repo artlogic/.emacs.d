@@ -11,3 +11,6 @@
 # ido artifacts
 /ido.last
 /places
+
+# bookmarks are local to the system
+bookmarks
