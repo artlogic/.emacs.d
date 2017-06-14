@@ -14,6 +14,7 @@
  '(ido-mode (quote both) nil (ido))
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
+ '(js-switch-indent-offset 2)
  '(org-agenda-files (quote ("~/Dropbox/GTD/action.org")))
  '(org-capture-templates
    (quote
