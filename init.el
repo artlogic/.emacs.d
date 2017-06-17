@@ -35,8 +35,10 @@
 ;; great if it could append/prepend, but it can't so we do that work
 ;; here
 
-;; prepend /usr/local/bin to the exec-path
+;; prepend /usr/local/bin to the exec-path & PATH
+;; this is probably only needed on Mac OS
 (add-to-list 'exec-path "/usr/local/bin")
+(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
 
 ;; ignore the node_modules directory
 (with-eval-after-load 'grep
