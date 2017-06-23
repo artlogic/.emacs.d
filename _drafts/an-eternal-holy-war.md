@@ -18,7 +18,11 @@ def fib(n):
 
 Programmers indent code to communicate structure, organization, and above all, intent. We also use indenting as a quick visual check of the complexity of the code we're working on. Deeply indented code generally indicates complexity. Indenting is so important that some languages (such as Python) have adopted it as syntax.
 
-Explain what a tab is. Provide historical context.
+The tab key was originally introduced on typewriters for tabular data. You could set tabstops horizontally across the paper and then hit the tab key to instantly travel to the next one, saving you from manually positioning. During the 60s, when typewriters were being converted into teletypes, the ASCII standard formalized the tab key as ASCII 9 Horizontal Tab (interesting, there's also the much lesser known ASCII 11 Vertical Tab). I'd like to imagine that shortly thereafter programmers began arguing with each other over it's use.
+
+How the tab key functions on your computer is very specific to the current program running. It might simply shift the cursor to another position. It might shift the cursor and insert a tab character in the file you are editing. It might move you to the next field in a form. It might do nothing. Since we're talking about text editors here, I'll focus on the move the cursor and insert a tab character case.
+
+The key contention with tab characters centers around how many visual spaces a tab character occupies. This is something that's configurable in any capable editor.
 
 Explain how spaces can provide the same function.
 
