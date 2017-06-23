@@ -14,8 +14,7 @@ github_username:  artlogic
 # Build settings
 exclude: ['Gemfile', 'Gemfile.lock']
 
-kramdown:
-  input: GFM
+theme: minima
 
 gems:
   - jekyll-sitemap
@@ -24,4 +23,21 @@ gems:
 
 permalink: "/entry/:year/:month/:day/:title/"
 timezone: America/Detroit
+
+repository: artlogic/.emacs.d
+
+# get rid of this... replace with site.github.repository_url
 github_link: "https://github.com/artlogic/.emacs.d"
+
+# github defaults
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
