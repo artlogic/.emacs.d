@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// make HR follow th vertical rhythm standards everything else does
+hr {
+    @extend %vertical-rhythm;
+}
