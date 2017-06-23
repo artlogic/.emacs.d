@@ -25,9 +25,7 @@ permalink: "/entry/:year/:month/:day/:title/"
 timezone: America/Detroit
 
 repository: artlogic/.emacs.d
-
-# get rid of this... replace with site.github.repository_url
-github_link: "https://github.com/artlogic/.emacs.d"
+google_analytics: UA-1196646-6
 
 # github defaults
 kramdown:
