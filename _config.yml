@@ -27,15 +27,5 @@ timezone: America/Detroit
 repository: artlogic/.emacs.d
 google_analytics: UA-1196646-6
 
-# github defaults
-kramdown:
-  input: GFM
-  hard_wrap: false
-  math_engine: mathjax
-
-lsi: false
+# simulate github pages
 safe: true
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
