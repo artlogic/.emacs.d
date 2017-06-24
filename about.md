@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 After using [GNU Emacs](https://www.gnu.org/software/emacs/) as my main editor for over two years, I came to the conclusion that learning Emacs isn't nearly so hard as configuring Emacs. Of course, I'm not the only one who's discovered this fact. Nearly a dozen Emacs starter configurations of varying quality have been created to bridge the gap between Emacs' default state and a "modern" editor. Then there are countless blogs, screencasts, and forums dedicated to the endless pursuit of turning Emacs into just about anything. This is something different.

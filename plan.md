@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Plan
-permalink: /plan/
 ---
 
 This represents a rough outline of what I'm working on currently:
