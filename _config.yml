@@ -1,8 +1,7 @@
 # Site settings
 title: ".emacs.d: a configuration odyssey"
-author:
-  name: James Kruth
-  email: james@kruth.org
+author: James Kruth
+email: james@kruth.org
 description: > # this means to ignore newlines until "baseurl:"
   A journal of my ongoing quest to configure emacs, a more elegant editor
   for a more civilized age.
@@ -17,9 +16,10 @@ exclude: ['Gemfile', 'Gemfile.lock']
 theme: minima
 
 gems:
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 permalink: "/entry/:year/:month/:day/:title/"
 timezone: America/Detroit
