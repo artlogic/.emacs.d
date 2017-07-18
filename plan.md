@@ -57,3 +57,5 @@ Then to load emacs now:
 * superword/subword mode
 * https://www.reddit.com/r/emacs/comments/3v7a0n/can_emacs_use_the_modern_autohiding_os_x_scrollbar/cxl3mkc
 * restclient: https://killring.org/2016/01/23/effective-restclient-in-emacs/
+* Global line numbers?
+* http://ergoemacs.org/emacs/emacs_make_modern.html
