@@ -15,7 +15,7 @@ exclude: ['Gemfile', 'Gemfile.lock']
 
 theme: minima
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
