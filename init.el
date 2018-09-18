@@ -51,4 +51,17 @@
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cb" 'org-iswitchb)
 
+;; append melpa-stable
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+
+;; init and refresh package list, if needed
+(package-initialize)
+(unless package-archive-contents
+  (package-refresh-contents))
+
+;; install selected packages (see package-selected-packages in custom.el)
+(package-install-selected-packages)
+
 ;;; init.el ends here
