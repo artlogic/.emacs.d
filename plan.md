@@ -59,3 +59,4 @@ Then to load emacs now:
 * restclient: https://killring.org/2016/01/23/effective-restclient-in-emacs/
 * Global line numbers?
 * http://ergoemacs.org/emacs/emacs_make_modern.html
+* flycheck and eslint: https://emacs.stackexchange.com/questions/21205/flycheck-with-file-relative-eslint-executable?newsletter=1&nlcode=387378%7cd9ba
